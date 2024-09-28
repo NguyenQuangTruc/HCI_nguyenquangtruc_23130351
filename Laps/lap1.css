@@ -1,22 +1,38 @@
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .navbar-costom{
     background-color: #2b2f29;
     height: 70px;
 }
 
-.nav-link-costom{
-    color: #ffffff;
-    margin-left: 50px;
+.navbar-nav-costom{
+    display: flex;
+    justify-content: center;
 }
 
+.nav-link-costom{
+    color: #ffffff;
+    margin-left: 90px;
+}
 
 .nav-link-costom:hover{
     color: aqua;
-    scale: 1.2;
+    scale: 1.4;
+}
+
+.ab{
+    display: none;
+}
+
+.lap:hover .a{
+    display: block;
 }
 
 .section-1{
     background-color: #eaebeb;
     height: 100%;
     border-radius: 30px;
-    display: none;
 }
