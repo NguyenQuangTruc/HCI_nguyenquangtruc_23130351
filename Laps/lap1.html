@@ -38,6 +38,83 @@
             </ul>
         </div>
     </div>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Course Management System</h1>
+        
+        <!-- Create/Edit Course Form -->
+        <form id="courseForm" class="mt-4">
+            <div class="form-group">
+                <label for="courseId">mã khoá học</label>
+                <input type="text" class="form-control" id="courseId" name="courseId" readonly>
+            </div>
+            <div class="form-group">
+                <label for="courseName">Tên khoá học</label>
+                <input type="text" class="form-control" id="courseName" name="courseName" required maxlength="255">
+            </div>
+            <div class="form-group">
+                <label for="courseDescription">Mô tả khoá học</label>
+                <textarea class="form-control" id="courseDescription" name="courseDescription"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="createdBy">giảng viên</label>
+                <select class="form-control" id="createdBy" name="createdBy">
+                    <!-- Options will be populated dynamically -->
+                     <option value="">nguyễn căn a</option>
+                     <option value="">nguyễn căn b</option>
+                     <option value="">nguyễn căn c</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Save Course</button>
+            <button type="button" class="btn btn-danger mt-3" id="deleteCourse">Delete Course</button>
+        </form>
+        
+
+        <div class="mt-5">
+            <h2 class="text-center">Registered Courses</h2>
+            <table class="table table-bordered mt-3">
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>C001</td>
+                        <td>Course 1</td>
+                        <td>nguyễn căn a</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">View</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C002</td>
+                        <td>Course 2</td>
+                        <td>nguyễn căn b</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">View</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C003</td>
+                        <td>Course 3</td>
+                        <td>nguyễn căn c</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm">View</button>
+                            <button class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 </body>
 </html>
 </html>
