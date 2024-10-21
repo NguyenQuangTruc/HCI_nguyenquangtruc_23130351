@@ -1,27 +1,3 @@
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.navbar-costom{
-    background-color: #2b2f29;
-    height: 70px;
-}
-
-.navbar-nav-costom{
-    display: flex;
-    justify-content: center;
-}
-
-.nav-link-costom{
-    color: #ffffff;
-    margin-left: 90px;
-}
-
-.nav-link-costom:hover{
-    color: aqua;
-    scale: 1.4;
-}
 
 body {
     background-color: #f0f0f0;
