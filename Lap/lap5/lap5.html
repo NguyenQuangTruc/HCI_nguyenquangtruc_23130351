@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/lap5.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-">
+        <div class="container- navbar navbar-expand navbar-costom">
+            <div class="container">
+                <h1 class="col-3" style="color: aliceblue;">
+                    <a href="index.html">
+                        MY WEB 
+                    </a>
+                </h1>
+                <ul class="navbar-nav navbar-nav-costom col-9">
+                    <li class="nav-item border-0">
+                        <a class="nav-link nav-link-costom" href="../lap1/lap1.html">LAP 1</a>
+                    </li>
+                    <li class="nav-item border-0">
+                        <a class="nav-link nav-link-costom" href="../lap2/lap2.html">LAP 2</a>
+                    </li>
+                    <li class="nav-item border-0">
+                        <a class="nav-link nav-link-costom" href="../lap3/lap3.html">LAP 3</a>
+                    </li>
+                    <li class="nav-item border-0">
+                        <a class="nav-link nav-link-costom" href="../lap3/lap3.html">LAP 4</a>
+                    </li>
+                    <li class="nav-item border-0" style="color: aqua; font-size: 30px; margin-left: 70px">
+                        LAP 5
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid text-white" style="background-color: #2d2f31;">
+            <div class="row">
+                <h1>My learning</h1>
+            </div>
+
+            <div class="row">
+                <p style="font-size: 15px;"> <span class="fw-bold">87hr 36min</span> watched <span class="fw-bold">View all activity</span></p>
+            </div>
+
+            <div class="row tab_title">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link text-white tab_1" data-toggle="tab" href="#content_tab_1">All courses</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white tab_2" data-toggle="tab" href="#content_tab_2">Learning paths</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white tab_3" data-toggle="tab" href="#content_tab_3">Certifications</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white tab_4" data-toggle="tab" href="#content_tab_3">Archved</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white tab_5" data-toggle="tab" href="#content_tab_3">Learning tools</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid tab-content mt-5">
+            <div id="content_tab_1" class="tab-pane content active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <form>
+                                <div class="form-row d-flex">
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="sort">
+                                            <option selected>Recently Accessed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="category">
+                                            <option selected>Categories</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="progress">
+                                            <option selected>Progress</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="instructor">
+                                            <option selected>Instructor</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-1 me-2">
+                                        <button type="button" class="btn btn-secondary">Reset</button>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="content_tab_2" class="tab-pane content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5 class="card-title">Learning path</h5>
+                                            <p class="card-text">Induction Training_GAA4FOFY (VI)</p>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-link">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 16%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="text-center">
+                                        1 of 6 items complete
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5 class="card-title">Learning path</h5>
+                                            <p class="card-text">Induction Training_GAA4FOFY (VI)</p>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-link">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="text-center">
+                                        3 of 6 items complete
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div id="content_tab_3" class="tab-pane content">
+                <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title">My badges</h5>
+                      <button class="btn btn-link">
+                        <i class="bi bi-info-circle"></i>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <p>You have earned and uploaded 0 badges.</p>
+                      <button class="btn btn-primary">Import new badge</button>
+                    </div>
+                  </div>
+                  <div class="card mt-3">
+                        <div class="card-header">
+                            <h5 class="card-title">Certification preparation</h5>
+                            <button class="btn btn-link">
+                                <i class="bi bi-info-circle"></i>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Oracle Certified Associate, Java SE 8 Programmer</h5>
+                                            <p class="card-text">Oracle</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-link">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Oracle Certified Associate, Java SE 7 Programmer</h5>
+                                            <p class="card-text">Oracle</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-link">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Oracle Certified Associate, Java SE 8 Programmer</h5>
+                                            <p class="card-text">Oracle</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-link">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Oracle Certified Associate, Java SE 7 Programmer</h5>
+                                            <p class="card-text">Oracle</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-link">
+                                                <i class="bi bi-three-dots-vertical"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div id="content_tab_4" class="tab-pane content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <form>
+                                <div class="form-row d-flex">
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="sort">
+                                            <option selected>Recently Accessed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="category">
+                                            <option selected>Categories</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="progress">
+                                            <option selected>Progress</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <select class="form-select" id="instructor">
+                                            <option selected>Instructor</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-1 me-2">
+                                        <button type="button" class="btn btn-secondary">Reset</button>
+                                    </div>
+                                    <div class="col-2 me-2">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img style="height: 200px" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/454743368_1044475200609340_5729359704821031794_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=2htEVToZnsoQ7kNvgGBXp73&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AC03ufZxyYcau_yIQEYRkjb&oh=00_AYC46hXMCbn-SlFApbja7ijKO09WvqVJy1b9ZSiahR571w&oe=6728E2D1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tên khóa học</h5>
+                                    <p class="card-text">Thông tin chi tiết về khóa học</p>
+                                    <p class="card-text">Tiến độ: 100%</p>
+            
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi-star-half"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content_tab_5" class="tab-pane content">
+                <div class="container">
+                    <h2 class="text-center">Learning tools</h2>
+                    <p class="text-center">Explore a diverse range of courses and take advantage of these versatile tools to gain knowledge, skills, and confidence at your own pace.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Learning reminders</h5>
+                                    <p class="card-text">Set time aside to learn and get reminders using your scheduler.</p>
+                                    <p class="card-text" style="font-size: 15px;">You currently have no ongoing reminders.</p>
+                                    <a href="#" class="btn btn-primary">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Reflections <span class="badge bg-secondary">Beta</span></h5>
+                                    <p class="card-text">Take time to reflect to strengthen your learning.</p>
+                                    <p class="card-text" style="font-size: 15px;">You currently have no recorded reflections on your learning journey.</p>
+                                    <a href="#" class="btn btn-primary">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./lap5.js"></script>
+</body>
